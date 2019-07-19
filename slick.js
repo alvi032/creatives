@@ -15,6 +15,7 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+
 ;(function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -584,8 +585,8 @@
             _.$slider.empty().append(newSlides);
             _.$slider.children().children().children()
                 .css({
-                    'width':(100 / _.options.slidesPerRow) + '%',
-                    'display': 'inline-block'
+                    'width': '300px',
+                    'display': 'flex'
                 });
 
         }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="slick.css">
     <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -41,7 +42,7 @@
 </div>
 <div id="clients">
     <h1>A FEW OF OUR CLIENTS</h1>
-    <div id="slick-slider-view">
+    <div class="slick-slider-view">
         <div class="client-card">
             <img src="images/Toys_Unlimited-150x150.jpg" alt="Toys">
             <h2>Toys Unlimited</h2>
@@ -125,6 +126,15 @@
         
     </div>
 </footer>
+<script src="slick.js"></script>
+<script>
+    $(".slick-slider-view").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+</script>
 </body>
 <script src="index.js"></script>
 </html>
