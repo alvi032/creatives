@@ -42,7 +42,7 @@ p{
 }
 #menu{
     display: grid;
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, 1fr);
     margin: 0;
     padding: 0;
     list-style: none;
@@ -125,6 +125,12 @@ p{
     display: grid;
     place-content: center center;
     text-align: center;
+}
+.impact-cat h2{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 0;
+    font-weight: 500;
 }
 .impact-cat h2, .impact-cat p{
     margin: 0;
