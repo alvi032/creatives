@@ -22,7 +22,7 @@ html, body {
 
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+    color: white;
 }
 
 
@@ -37,4 +37,29 @@ html, body {
 
 .slick-current {
     opacity: 1;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 46px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    /* color: black; */
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fff;
+}
+.slick-dots {
+    bottom: -165px;
 }

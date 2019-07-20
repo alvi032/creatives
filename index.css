@@ -95,6 +95,7 @@ p{
 }
 #clients{
     background-color: #3F479D;
+    padding: 0 0 193px 0;
 }
 #clients h1{
     color: white;
@@ -102,14 +103,14 @@ p{
     text-align: center;
 }
 .slick-slider-view{
-    padding: 0 0 193px 0;
+
     max-width: 1330px;
     margin: auto;
 }
 .client-card{
     background-color: white;
     width: 300px;
-    margin: 0 1em;
+    margin: auto;
     padding: 48px 0 35px 0;
     border-radius: 8px;
     display: flex;
