@@ -1,3 +1,17 @@
+function menuSlidesIn(){
+    var checkbox = document.getElementById("btnControl")
+    var menu = document.getElementById("menu-items")
+
+    if(checkbox.checked == true){
+        menu.style.top= "100%"
+
+    }
+    else{
+        menu.style.top= "-100%"
+    }
+}
+
+
 var a = 0;
 $(window).scroll(function() {
 
@@ -30,3 +44,4 @@ $(window).scroll(function() {
     }
 
 });
+

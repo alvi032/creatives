@@ -1,0 +1,25 @@
+@media (max-device-width: 1024px){
+    #footer{
+        width: 90%;
+    }
+}
+@media (max-device-width: 768px){
+    header{
+        height: 104px;
+        max-height: 104px;
+    }
+    #navbar{
+        min-height: 37px;
+    }
+    #hamburger{
+        display: unset;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media (max-device-width: 450px){
+    #main{
+
+    }
+}
