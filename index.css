@@ -4,6 +4,10 @@ html, body{
     font-family: Montserrat;
     overflow-x: hidden;
 }
+body{
+    position: relative;
+    z-index: 0;
+}
 header{
     position: relative;
     padding: 28px 16px 24px 16px;

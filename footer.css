@@ -30,6 +30,9 @@ footer p{
     background-color: white;
     font-weight: bold;
 }
+#contact-footer:focus{
+    outline: 0;
+}
 #footer-quicklinks{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
