@@ -11,6 +11,7 @@
 }
 #main-services h1{
     padding: 120px 0 60px 0;
+    color: #1A1C59;
 }
 #service-cards{
     display: grid;
