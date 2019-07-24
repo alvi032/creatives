@@ -1,0 +1,36 @@
+#main-services{
+    width: 100%;
+    z-index: -2;
+
+    position: relative;
+}
+#main-services h1, #service-cards{
+    max-width: 1330px;
+    margin: auto;
+    text-align: center;
+}
+#main-services h1{
+    padding: 120px 0 60px 0;
+}
+#service-cards{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-content: center;
+    /*grid-gap: */
+    padding-bottom: 70px;
+}
+.service-card-temp{
+    max-width: 370px;
+    padding: 2em 0;
+    box-shadow: 0px 20px 40px rgba(100, 176, 226, 0.2);
+}
+.service-card-temp img{
+    height: 64px;
+    width: auto;
+}
+.service-card-temp h3{
+    padding: 14px 0 20px 0;
+}
+.service-card-temp p{
+    padding: 0 1em;
+}

@@ -2,6 +2,9 @@
     #footer{
         width: 90%;
     }
+    #service-cards {
+        grid-template-columns: repeat(2, auto);
+    }
 }
 @media (max-width: 768px) {
     h1 {
@@ -9,7 +12,7 @@
     }
 
     header {
-        height: 104px;
+        /*height: 104px;*/
         max-height: 104px;
     }
 
@@ -77,6 +80,9 @@
     #footer-info p{
         max-width: 100%;
         text-align: center;
+    }
+    #service-cards {
+        grid-template-columns: repeat(1, auto);
     }
 
 }
