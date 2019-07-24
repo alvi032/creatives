@@ -3,70 +3,103 @@
         width: 90%;
     }
 }
-@media (max-width: 768px){
-    header{
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    header {
         height: 104px;
-        /*width: 425px;*/
         max-height: 104px;
     }
-    #logo-div img{
+
+    #logo-div img {
         vertical-align: middle;
         width: 160px;
     }
-    #navbar{
+
+    #navbar {
         min-height: 37px;
     }
-    #hamburger{
+
+    #hamburger {
         display: unset;
     }
-    #menu{
+
+    #menu {
         display: none;
     }
-}
-@media (max-width: 450px){
-    h1{
-        font-size: 50px;
-    }
-    #intro{
+
+    #intro {
         grid-template-columns: repeat(1, 100vw);
 
     }
-    #intro-text{
+
+    #intro-text {
         place-self: center;
     }
-    #intro img{
+
+    #intro img {
         width: 90vw;
         place-self: center;
         padding: 1em 0;
     }
-    #what-we-do p{
+
+    #what-we-do p {
         width: 95%;
         text-align: center;
         place-self: center;
     }
-    #impact-info{
+
+    #impact-info {
         grid-template-columns: repeat(1, auto);
         padding: 0;
     }
-    .impact-cat p{
+
+    .impact-cat p {
         padding: 12px 0;
     }
-    .impact-cat img{
+
+    .impact-cat img {
         padding: 0 0 50px 0;
     }
+
     #footer{
+        grid-template-columns: repeat(1, auto);
+        place-items: center;
+    }
+    #footer-info {
+        padding: 40px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-info p{
+        max-width: 100%;
+        text-align: center;
+    }
+
+}
+@media (max-width: 480px) {
+
+    #footer {
         grid-template-columns: repeat(1, auto);
         text-align: center;
     }
-    #footer-quicklinks{
+
+    #footer-quicklinks {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: -webkit-center;
     }
+
     #footer-quicklinks p {
         white-space: nowrap;
         font-size: smaller;
+
+    }
+
 
 }
