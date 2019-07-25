@@ -1,0 +1,47 @@
+#main-works{
+    width: 100%;
+}
+#works-content{
+    width: 100%;
+    max-width: 1330px;
+    margin: auto;
+    text-align: center;
+}
+#works-content h1{
+    padding: 100px 0 40px 0;
+    color: #1A1C59;
+    margin: auto;
+}
+#works-content p{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 124px;
+    color: #1A1C59;
+}
+#steps-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 80px;
+    padding-bottom: 80px;
+}
+.step img{
+    margin: 22px 0 38px 0;
+}
+.step p, .step h1{
+    padding: 0 0 0 0 !important;
+    width: 90% !important;
+    margin: auto;
+}
+.arrow-right, .arrow-left{
+    padding: 0 48px;
+}
+.arrow-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.arrow-left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

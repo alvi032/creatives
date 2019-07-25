@@ -84,7 +84,15 @@
     #service-cards {
         grid-template-columns: repeat(1, auto);
     }
-
+    #works-content p{
+        width: 80%;
+    }
+    #steps-list{
+        grid-template-columns: repeat(1, auto);
+    }
+    .arrow-left, .arrow-right{
+        display: none;
+    }
 }
 @media (max-width: 480px) {
 
@@ -105,6 +113,15 @@
         white-space: nowrap;
         font-size: smaller;
 
+    }
+    #works-content h1{
+        width: 60%;
+    }
+    #works-content p{
+        width: 90%;
+    }
+    .step img{
+        width: 95%;
     }
 
 
