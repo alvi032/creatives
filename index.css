@@ -143,6 +143,7 @@ p{
     max-width: 1330px;
     width: 100%;
     place-self: center;
+    place-items: center;
 }
 #intro-text{
     display: grid;
@@ -151,10 +152,14 @@ p{
     max-width: 500px;
 }
 #intro-text h1, #what-we-do h1, #impact h1{
-    color: #1A1C59;
+    color: #002944;
 }
 #intro-text p, #what-we-do p{
     padding: 19px 0 0 0;
+}
+#intro img{
+    max-height: 470px;
+    width: auto;
 }
 #what-we-do{
     display: grid;
@@ -168,11 +173,11 @@ p{
     max-width: 900px;
 }
 #clients{
-    background-color: #3F479D;
+    background-color: white;
     padding: 0 0 193px 0;
 }
 #clients h1{
-    color: white;
+    color: #002944;
     padding: 80px 0 65px 0;
     text-align: center;
 }
@@ -182,7 +187,7 @@ p{
     margin: auto;
 }
 .client-card{
-    background-color: white;
+    background-color: #002944;
     width: 300px;
     margin: auto;
     padding: 48px 0 35px 0;
@@ -199,25 +204,49 @@ p{
 .client-card h2{
     font-size:20px;
     padding: 24px 0 16px 0;
+    color: white;
 }
 .client-card h3{
     font-size: 24px;
+    color: white;
 }
-.client-card button{
+.client-card p{
+    color: #f3f3f3
+}
+/*.client-card button{
     margin: 40px 0 0 0;
     border: none;
     border-radius: 40px;
     height: 50px;
     width: 170px;
     font-size: 16px;
-    color: white;
-    background-color: #1A1C59;
+    color: #002944;
+    background-color: white;
     font-weight: bold;
     letter-spacing: 0.02em;
+}*/
+.client-card a{
+    margin: 40px 0 0 0;
+    border: none;
+    border-radius: 40px;
+    /*height: 50px;*/
+    width: 170px;
+    padding: 1em 0;
+    font-size: 16px;
+    color: #002944;
+    background-color: white;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    text-align: -webkit-center;
+    text-decoration: none;
+}
+.client-card a:focus{
+    outline: none;
 }
 #impact{
     display: grid;
     width: 100%;
+    background-color: #f3f3f3;
 }
 #impact-subdiv{
     width: 100%;
