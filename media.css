@@ -60,12 +60,15 @@
         padding: 0;
     }
 
+    .impact-cat{
+        padding: 0 0 50px 0;
+    }
     .impact-cat p {
         padding: 12px 0;
     }
 
     .impact-cat img {
-        padding: 0 0 50px 0;
+        /*padding: 0 0 50px 0;*/
     }
 
     #footer{
