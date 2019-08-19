@@ -138,6 +138,13 @@
     .step img{
         width: 95%;
     }
+    #contact-subdiv>p{
+        width: 95%;
+    }
+    #terms-and-conditions>p{
+        width: 95%;
+        margin: auto;
+    }
 
 
 }
