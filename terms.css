@@ -1,0 +1,14 @@
+#terms{
+    width: 100%;
+}
+#terms-and-conditions{
+    max-width: 1330px;
+    width: 100%;
+    margin: auto;
+}
+.heading{
+    font-weight: 800;
+}
+.sub-heading{
+    font-weight: 500;
+}
