@@ -99,6 +99,15 @@
     .arrow-left, .arrow-right{
         display: none;
     }
+    #works-content ul li{
+        background-color: white;
+    }
+    #works-content ul li>p {
+         grid-area: unset;
+         place-self: unset;
+         padding: unset;
+    }
+
 }
 @media (max-width: 480px) {
 
