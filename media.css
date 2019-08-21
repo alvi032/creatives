@@ -109,7 +109,9 @@
          padding: unset;
     }
     */
-
+    #works-content ul li {
+        grid-template-columns: auto auto auto;
+    }
 
 }
 @media (max-width: 480px) {
