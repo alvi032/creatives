@@ -1,106 +1,1 @@
-#navbar #menu li:nth-child(2) a::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -25px;
-    background: #1A1C59;
-    border-radius: 10px;
-}
-#main-works{
-    position: relative;
-    z-index: -2;
-    width: 100%;
-    background-color: #f3f3f3;
-    box-sizing: border-box;
-}
-#works-content{
-    width: 100%;
-    max-width: 1330px;
-    margin: auto;
-    text-align: center;
-}
-#works-content>h1{
-    padding: 100px 0 40px 0;
-    color: #1A1C59;
-    margin: auto;
-}
-#works-content>p{
-    width: 50%;
-    margin: auto;
-    padding-bottom: 124px;
-    color: #1A1C59;
-}
-#works-content ul{
-    padding: 0;
-    list-style: none;
-    margin-bottom: 40px;
-}
-#works-content ul li{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 20px;
-    transition: 250ms;
-    /*-webkit-box-shadow: 0px 10px 5px 0px rgba(161,161,161,0.63);
-    -moz-box-shadow: 0px 10px 5px 0px rgba(161,161,161,0.63);
-    box-shadow: 0px 10px 5px 0px rgba(161,161,161,0.63);*/
-}
-#works-content ul li:hover{
-    transform: rotate(-1deg) scale(1.03);
-
-}
-#works-content ul li>div{
-    display: flex;
-    color: white;
-}
-.step, .step-info, .step-image{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.step h2{
-    font-weight: 400;
-    font-size: 36px;
-}
-.number{
-    font-weight: 800;
-    font-size: 58px;
-    margin-top: 0;
-}
-.step-info{
-    align-items: flex-start;
-    text-align: left;
-    padding: 0 1em;
-}
-.step-info p{
-    color: white;
-}
-#step-1{
-    background-color: #ffb63b;
-    box-shadow: 0px 10px 5px 0px rgba(176,125,42,1);
-}
-#step-2{
-     background-color: #cf6235;
-    box-shadow: 0px 10px 5px 0px rgb(135, 69, 34);
-}
-#step-3{
-    background-color: #cf3153;
-    box-shadow: 0px 10px 5px 0px rgb(134, 37, 61);
-}
-#step-4{
-    background-color: #a435cf;
-    box-shadow: 0px 10px 5px 0px rgb(104, 31, 135);
-}
-#step-5{
-    background-color: #477ccf;
-    box-shadow: 0px 10px 5px 0px rgb(49, 77, 134);
-}
-#step-6{
-    background-color: #4dcfbc;
-    box-shadow: 0px 10px 5px 0px rgb(43, 136, 124);
-}
-#step-7{
-    background-color: #91cf37;
-    box-shadow: 0px 10px 5px 0px rgb(93, 135, 37);
-}
+#navbar #menu li:nth-child(2) a::after{    content: "";    display: block;    position: absolute;    width: 100%;    height: 2px;    bottom: -25px;    background: #1A1C59;    border-radius: 10px;}#main-works{    position: relative;    z-index: -2;    width: 100%;    background-color: #f3f3f3;    box-sizing: border-box;}#works-content{    width: 100%;    max-width: 1330px;    margin: auto;    text-align: center;}#works-content>h1{    padding: 100px 0 40px 0;    color: #1A1C59;    margin: auto;}#works-content>p{    width: 50%;    margin: auto;    padding-bottom: 124px;    color: #1A1C59;}#works-content ul{    padding: 0;    list-style: none;    margin-bottom: 40px;}#works-content ul li{    display: grid;    grid-template-columns: auto auto auto;    padding: 20px;    transition: 250ms;    /*-webkit-box-shadow: 0px 10px 5px 0px rgba(161,161,161,0.63);    -moz-box-shadow: 0px 10px 5px 0px rgba(161,161,161,0.63);    box-shadow: 0px 10px 5px 0px rgba(161,161,161,0.63);*/}#works-content ul li:hover{    transform: rotate(-1deg) scale(1.03);}#works-content ul li>div{    display: flex;    color: white;}.step, .step-info, .step-image{    flex-direction: column;    justify-content: center;    align-items: center;}.step h2{    font-weight: 400;    font-size: 36px;}.number{    font-weight: 800;    font-size: 58px;    margin-top: 0;}.step-info{    align-items: flex-start;    text-align: left;    padding: 0 1em;}.step-info p{    color: white;}#step-1{    background-color: #ffb63b;    box-shadow: 0px 10px 5px 0px rgb(135, 99, 28);}#step-2{     background-color: #cf6235;    box-shadow: 0px 10px 5px 0px rgb(135, 69, 34);}#step-3{    background-color: #cf3153;    box-shadow: 0px 10px 5px 0px rgb(134, 37, 61);}#step-4{    background-color: #a435cf;    box-shadow: 0px 10px 5px 0px rgb(104, 31, 135);}#step-5{    background-color: #477ccf;    box-shadow: 0px 10px 5px 0px rgb(49, 77, 134);}#step-6{    background-color: #4dcfbc;    box-shadow: 0px 10px 5px 0px rgb(43, 136, 124);}#step-7{    background-color: #91cf37;    box-shadow: 0px 10px 5px 0px rgb(93, 135, 37);}
